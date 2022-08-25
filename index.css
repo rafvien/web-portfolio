@@ -1,0 +1,107 @@
+/* CSS Reset */
+*
+	{
+	margin: 0;	
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+#sidebar
+	{
+	display: none;
+	position: fixed;
+	z-index: 2;
+	}
+
+#floating
+	{
+	display: none;
+	position: fixed;
+	z-index: 3;
+	background-image: url(./images/lettering.jpg);
+	background-position: center center; 
+	}
+
+#landing
+	{
+	background-image: url(./images/bg1.jpg);
+	background-position: center center; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: auto 100vh;
+	}
+
+
+/* Background Overrides */
+.bg-dark
+	{
+	background-color:#10100E !important;	
+	}
+
+.bg-warning
+	{
+	background-color: #D49B39 !important;	
+	}
+
+.bg-primary
+	{
+	background-color: #5FAB95 !important;	
+	}
+
+.bg-secondary
+	{
+	background-color: #8E8B7E !important;	
+	}
+
+/* Font and Texts */
+#sidebar-title
+	{
+	font-family: "bebas neue";
+	font-weight: bold;
+	}
+
+#text-1
+	{
+	font-size: 5rem ;
+	}
+
+#text-2
+	{
+	font-size: 2.5rem ;
+	}
+
+#text-3
+	{
+	font-size: 1.0rem ;
+	letter-spacing: 0.5rem;
+	}
+
+#hotlinks
+	{
+	font-family: "Questrial";
+	font-weight: bold;
+	letter-spacing: 0.5rem;
+	}
+
+#paragraph
+	{
+	font-family: "Questrial";
+	color: #F9F0E2;
+	font-size: ;
+	}
+
+/*navbar mobile stylings*/
+.navbar-brand
+	{
+	color: #F9F0E2;
+	font-family: "bebas neue";
+	margin-left: 25px;
+	letter-spacing: 0.30rem;
+	}
+
+#navbarNav
+	{
+	color: #F9F0E2;
+	font-family: "bebas neue";
+	letter-spacing: 0.2rem;
+	}
