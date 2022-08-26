@@ -32,6 +32,18 @@
 	}
 
 
+
+#footer
+	{
+	background-image: url(./images/bg1.jpg);
+	background-position: center center; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: auto 100vh;
+	font-family: "questrial";
+	}
+
+
 /* Background Overrides */
 .bg-dark
 	{
@@ -61,6 +73,11 @@
 .bg-info
 	{
 	background-color: #5FAB95 !important;
+	}
+
+.bg-danger
+	{
+	background-color: #F04E46 !important;
 	}
 
 /* Font and Texts */
@@ -97,7 +114,7 @@
  {
    #paragraph
    	{
-   	font-size: 28px;
+   	font-size: 20px;
    	}
  }
 #paragraph
@@ -132,4 +149,19 @@
 	text-align: center;
 	border-radius: 50px;
 	padding: 5rem 2rem;
+	}
+
+#proj-catalog
+	{
+	font-family: "Questrial";
+	}
+
+#soclinks-mobile
+	{
+	padding: 0;
+	position: sticky;
+/*	left: 10px;
+	bottom: 10px;*/
+	bottom: 0px;
+	z-index: 3;
 	}
