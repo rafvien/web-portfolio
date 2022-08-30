@@ -11,6 +11,7 @@
 	display: none;
 	position: fixed;
 	z-index: 2;
+	min-height: 200vh ;
 	}
 
 #floating
@@ -52,7 +53,7 @@
 		}	
 	}
 
-@media (min-width : 1281px)
+@media (min-width : 1440px)
 	{
 	.card-header
 		{
