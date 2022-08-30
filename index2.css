@@ -114,7 +114,7 @@
  {
    #paragraph
    	{
-   	font-size: 20px;
+   	font-size: 23px;
    	}
  }
 #paragraph
@@ -164,4 +164,55 @@
 	bottom: 10px;*/
 	bottom: 0px;
 	z-index: 3;
+	}
+
+/*BUTTONS OVERRIDE*/
+.btn-outline-secondary
+	{
+	background-color: #8E8B7E ;
+	border: none;
+	border-radius: 15px;
+	}
+
+.btn-home:hover
+	{
+	background-color: #1A3A69 !important;
+	transition: 0.25s;
+	}
+
+.btn-about:hover
+	{
+	background-color: #5FAB95 !important;
+	transition: 0.25s;
+	}
+
+.btn-proj:hover
+	{
+	background-color: #FBAC3A !important;
+	transition: 0.25s;
+	}
+
+.btn-contact:hover
+	{
+	background-color: #F04E46 !important;
+	transition: 0.25s;
+	}
+
+.btn-send:hover
+	{
+	background-color: #F04E46 !important;
+	color: white;
+	transition: 0.25s;
+	}
+
+
+/*FORM GROUP OVERRIDES*/
+.form-control , .input-group-text
+	{
+	border-radius: 25px;
+	}
+
+.card
+	{
+	border-radius: 25px;
 	}
