@@ -43,6 +43,23 @@
 	font-family: "questrial";
 	}
 
+@media (min-width : 900px)
+	{
+	.card-header
+		{
+		padding-top: 1%;
+		padding-bottom: 1%;	
+		}	
+	}
+
+@media (min-width : 1281px)
+	{
+	.card-header
+		{
+		padding-top: 5%;
+		padding-bottom: 5%;	
+		}	
+	}
 
 /* Background Overrides */
 .bg-dark
@@ -108,6 +125,7 @@
 	font-family: "Questrial";
 	font-weight: bold;
 	letter-spacing: 0.5rem;
+	font-size: 0.5rem;
 	}
 
  @media (min-width: 992px) 
@@ -207,7 +225,7 @@
 
 
 /*FORM GROUP OVERRIDES*/
-.form-control , .input-group-text
+.form-control , .input-group-text , .btn-send
 	{
 	border-radius: 25px;
 	}
