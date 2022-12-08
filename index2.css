@@ -133,7 +133,7 @@
  {
    #paragraph
    	{
-   	font-size: 23px;
+   	font-size: 20px;
    	}
  }
 #paragraph
@@ -173,7 +173,35 @@
 #proj-catalog
 	{
 	font-family: "Questrial";
+	transition: transform .7s ease;
 	}
+
+	#proj-catalog:hover
+		{
+		font-family: "Questrial";
+		transition: 0.25s;
+		transform: scale(1.05);
+		}
+
+		.child {
+		    align-self: flex-end;
+		    width: 100px;
+		    height: 100px;
+		    transition: transform .7s ease;
+		    animation-duration: 1s;
+		    animation-iteration-count: infinite;
+		    transform-origin: bottom;
+		}
+		.bounce:hover {
+		    animation-name: bounce;
+		    animation-timing-function: ease;
+		}
+		@keyframes bounce {
+		  0%   { transform: translateY(0); }
+		  50%  { transform: translateY(-10px); }
+		  100% { transform: translateY(0); }
+		}
+
 
 #soclinks-mobile
 	{
@@ -235,3 +263,27 @@
 	{
 	border-radius: 25px;
 	}
+
+/*PRODUCT CARD*/
+#card
+{
+  background-color: #F4D1AE !important;
+  color:#12263A ; 
+  transition: transform .7s ease;
+
+}
+
+#card:hover
+  {
+  background-color: #1A3A69 !important;
+  color:  white !important;  
+  transition: 0.25s;
+  transform: scale(1.05);
+  font-family: "Questrial";
+
+  }
+
+ #bildr
+ {
+ 	font-family: "Questrial";
+ }
