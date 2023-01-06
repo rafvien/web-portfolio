@@ -283,6 +283,61 @@
 
   }
 
+ #cardarki
+ {
+   background-color: #F4D1AE !important;
+   color:#12263A ; 
+   transition: transform .7s ease;
+
+ }
+
+ #cardarki:hover
+   {
+   background-color: #1A3A69 !important;
+   color:  white !important;  
+   transition: 0.25s;
+   transform: scale(1.05);
+   font-family: "Questrial";
+
+   }
+
+
+ 	#cardgd
+ 	{
+ 	  background-color: #F4D1AE !important;
+ 	  color:#12263A ; 
+ 	  transition: transform .7s ease;
+
+ 	}
+
+ 	#cardgd:hover
+ 	  {
+ 	  background-color: #F04E46 !important;
+ 	  color:  white !important;  
+ 	  transition: 0.25s;
+ 	  transform: scale(1.05);
+ 	  font-family: "Questrial";
+
+ 	  }
+
+ 	 #cardwebdev
+ 	 {
+ 	   background-color: #F4D1AE !important;
+ 	   color:#12263A ; 
+ 	   transition: transform .7s ease;
+
+ 	 }
+
+ 	 #cardwebdev:hover
+ 	   {
+ 	   background-color: #5FAB95 !important;
+ 	   color:  white !important;  
+ 	   transition: 0.25s;
+ 	   transform: scale(1.05);
+ 	   font-family: "Questrial";
+
+ 	   }
+
  #bildr
  {
  	font-family: "Questrial";
@@ -291,5 +346,11 @@
  #folio
  	{
  		border-radius: 25px;
+ 		
+ 	}
+
+ 	.text-light
+ 	{
+ 		text-decoration: none; 
  		
  	}
